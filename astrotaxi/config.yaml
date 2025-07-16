@@ -1,23 +1,23 @@
-project_path: "."
+project_path: "/home/tmassagl/development/astrodata_examples"
 
 code:
   enable: true
   auto_commit: true
   tracked_files: ["examples"]
   commit_message: "Auto commit by astrodata"
-  branch: "test_branch5"
+  branch: "test_branch"
   remote:
     enable: true
     name: "origin"
-    url: "changeme"
-  ssh_key_path: "your_key"
-  # token: "your_token"  # Optional
+    url: "https://github.com/tommasomassaglia/astrotaxi_example.git"
+  #ssh_key_path: ""
+  token: "/home/tmassagl/development/astrodata_examples/pac_token.pem"  # Optional
 
 data:
   enable: true
   paths:
     - "testdata"
-  remote: "/home/dev/temp/testremote/" # Must be full path
+  remote: "/home/tmassagl/development/astrodata_dvc" # Must be full path
   push: true
 
 preml:

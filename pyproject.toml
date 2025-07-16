@@ -1,0 +1,12 @@
+[project]
+name = "astrodata-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "astrodata",
+]
+
+[tool.uv.sources]
+astrodata = { git = "https://github.com/Astrodata-project/astrodata.git" }
